@@ -1,0 +1,69 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.box-area {
+    width: 930px;
+
+    .left-box {
+        background-color: #103cbe;
+
+        .background-image {
+            width: 400px;
+        }
+
+        .left-box-title {
+            font-family: "Courier New", Courier, monospace;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .left-box-description {
+            font-family: "Courier New", Courier, monospace;
+            font-size: 15px;
+            font-weight: 400;
+        }
+    }
+
+    .right-box {
+        padding: 40px 30px 40px 40px;
+
+        .google-icon {
+            width: 36px;
+        }
+
+        .email-error {
+            display: none;
+            color: red;
+        }
+
+        .password-error {
+            display: none;
+            color: red;
+        }
+
+        .contact-error {
+            display: none;
+            color: red;
+        }
+
+        .link {
+            color: #103cbe;
+            text-decoration: none;
+        }
+    }
+
+    .login-button {
+        background-color: #103cbe;
+        :hover {
+            background-color: #305bea;
+        }
+    }
+
+    ::placeholder {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      class="container d-flex justify-content-center align-items-center min-vh-100"
+    >
+      <div class="row border rounded-5 p-3 bg-white shadow box-area">
+        <div
+          class="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box"
+        >
+          <div class="featured-image mb-3">
+            <img src="assets/bg.png" class="img-fluid background-image" />
+          </div>
+          <!-- <p class="text-white fs-2 left-box-title">Be Verified</p>
+          <small class="text-white text-wrap text-center left-box-description">
+            Log in to your account to continue
+          </small> -->
+        </div>
+        <form class="col-md-6 right-box">
+          <div class="row align-items-center">
+            <div class="header-text mb-4">
+              <h2>Hello Again!</h2>
+              <p>We are happy to have you back.</p>
+            </div>
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control form-control-lg bg-light fs-6 email-field"
+                placeholder="Email Address"
+              />
+            </div>
+            <p class="email-error"></p>
+            <div class="input-group mb-3">
+              <input
+                type="password"
+                class="form-control form-control-lg bg-light fs-6 password-field"
+                placeholder="Password"
+              />
+            </div>
+            <p class="password-error"></p>
+            <div class="input-group mb-1">
+              <input
+                type="text"
+                class="form-control form-control-lg bg-light fs-6 contact-field"
+                placeholder="Phone Number"
+              />
+            </div>
+            <p class="contact-error"></p>
+            <div class="input-group mb-5 d-flex justify-content-between">
+              <div class="form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="formCheck"
+                />
+                <label for="formCheck"><small>Remember Me</small></label>
+              </div>
+
+              <div class="forgot">
+                <small><a href="#" class="link">Forgot Password?</a></small>
+              </div>
+            </div>
+            <div class="input-group mb-3">
+              <button class="btn btn-lg btn-primary w-100 fs-6 login-button">
+                Login
+              </button>
+            </div>
+            <div class="input-group mb-3">
+              <button class="btn btn-lg btn-light w-100 fs-6">
+                <img
+                  src="assets/google.png"
+                  alt="google"
+                  class="google-icon"
+                  class="me-2"
+                /><small>Sign In with Google</small>
+              </button>
+            </div>
+            <div class="row">
+              <small class="text-center"
+                >Don't have an account?
+                <b><a href="#" class="link">Sign Up</a></b></small
+              >
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
